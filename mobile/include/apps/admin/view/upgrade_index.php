@@ -1,18 +1,18 @@
 {include file="pageheader"}
 
-<div class="row" style="margin:0">
+<!-- <div class="row" style="margin:0">
   <div class="ectouch-mb5">
-  	<a href="{url('index')}" class="btn btn-info">{$lang['upgrade']}</a>
+    <a href="{url('index')}" class="btn btn-info">{$lang['upgrade']}</a>
     <a href="{url('checkfile')}" class="btn btn-success">{$lang['checkfile']}</a>
   </div>
-</div>
+</div> -->
 
-<p class="bg-success" style="padding: 10px;line-height: 24px;">{$lang['upgrade_notice']}</p>
+<!-- <p class="bg-success" style="padding: 10px;line-height: 24px;">{$lang['upgrade_notice']}</p> -->
 
 <form action="{url('init')}" method="post">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h3 class="panel-title">{$lang['upgrade']}</h3>
+      <h3 class="panel-title">{$lang['currentversion']}</h3>
     </div>
     <div class="panel-body" style="padding:0;">
       <table class="table table-hover ectouch-table">
@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <td>{VERSION}</td>
-          <td class="text-right">{RELEASE}</td>
+          <td class="text-right">2015年11月2日</td>
         </tr>
       </table>
     </div>

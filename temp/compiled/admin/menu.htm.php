@@ -541,7 +541,7 @@ function start_menu_api(result)
       }
       else
       {
-          document.getElementById("menu-ul").innerHTML = document.getElementById("menu-ul").innerHTML + result.content;
+          /*document.getElementById("menu-ul").innerHTML = document.getElementById("menu-ul").innerHTML + result.content;
 		  var arr=[{key_data1:"lis ico_15",key_data2:"lis ico2_15"},{key_data1:"lis ico_16",key_data2:"lis ico2_16"}]
 		  var explode=getClass("explode");
 		  for(var i=0;i<explode.length;i++){
@@ -551,7 +551,8 @@ function start_menu_api(result)
 				obj.setAttribute(index,o[index]);
 			}
 			explode[i].className="collapse "+explode[i].getAttribute("key_data1");
-		  }
+		  }*/
+      console.log(" 欢迎光临天下客网上购物商城!");
 	
       }  
 }

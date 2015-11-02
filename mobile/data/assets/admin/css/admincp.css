@@ -15,18 +15,18 @@ a:hover{ text-decoration:underline;}
 form{display:inline;}
 .hr{overflow:hidden;height:0;border-top:1px solid #cacaca;border-bottom:1px solid #ffffff;}
 html {font-size:12px;height:98%; overflow:hidden;border:0;}
-body{border:none;color:#555555;background-color:#1BD4D5;height:100%; overflow:hidden;font-family:Verdana, Arial, Trebuchet MS;}
+body{border:none;color:#555555;background-color:#047BA7;height:100%; overflow:hidden;font-family:Verdana, Arial, Trebuchet MS;}
 
-#admin_header{height:62px;position:absolute;top:0px;left:0px;width:100%;border-bottom:2px solid #41b2fe;overflow:hidden;}
+#admin_header{height:62px;position:absolute;top:0px;left:0px;width:100%;border-bottom:2px solid #DF0606;overflow:hidden;}
 #admin_logo{float:left;height:52px;width:160px;margin-left: 8px;margin-top: 8px;}
 #submenu-div {text-align: center;width: 1000px;position: absolute;right: 0px;height: 64px;}
 #submenu-div ul {margin: 0;padding: 0;list-style-type: none;}
-#submenu-div li {float: right;width: 82px;height: 18px;margin-top: 20px;font-size:14px;border-left: 1px solid #27E7E5;border-right: 1px solid #07BAAC;}
+#submenu-div li {float: right;width: 82px;height: 18px;margin-top: 20px;font-size:14px;border-left: 1px solid #27BDE7;border-right: 1px solid #0796BA;}
 #submenu-div li a {text-align: center;width: 82px;height: 18px; line-height:18px;display: block;text-decoration: none;color: #FFF;}
 
 #admin_menubar{position:absolute;left:0px;top:64px;width:180px;bottom:30px;overflow:hidden;background:#f7f7f7;overflow-y: auto;}
 #admin_menubar dl {margin:0px 0px 5px;}
-#admin_menubar dl dt{color:#555;height:30px;font-size:14px;background:#eee;line-height:30px;font-weight:bold;text-indent:2em;/*text-align:center;*/}
+#admin_menubar dl dt{color:#555;height:30px;font-size:14px;background:#e2e2e2;line-height:30px;font-weight:bold;text-indent:2em;/*text-align:center;*/}
 #admin_menubar dl dd{padding-left:1px;padding-right:1px;}
 #admin_menubar li{margin:0;height:30px;border-top:1px #ddd dashed;overflow:hidden;}
 #admin_menubar li:hover{background:#efefef;}
@@ -38,12 +38,12 @@ body{border:none;color:#555555;background-color:#1BD4D5;height:100%; overflow:hi
 #admin_menubar li.current, #admin_menubar li.active{text-decoration:none;background:url(../images/bg_tabs.png) no-repeat -9px -2px;}
 #admin_menubar li.current a, #admin_menubar li.active a{color:#555; display:block}
 
-#admin_switchbar{position:absolute;left:180px;top:64px;width:10px;bottom:32px;overflow:hidden;z-index:1; background:#41b2fe;}
+#admin_switchbar{position:absolute;left:180px;top:64px;width:10px;bottom:32px;overflow:hidden;z-index:1; background:#C1C1C1;}
 #admin_contont{position:absolute;left:190px;top:64px;bottom:0;right:0;overflow:hidden;background:#ffffff;}
 #admin_contont iframe { width:100%; height:100%;}
 #admin_contont{border:1px solid #fff;bottom:30px;}
 
-#admin_bottom{position:absolute;height:30px;left:0px;bottom:0;width:100%;border-top: 2px solid #41b2fe;overflow:hidden; color:#eee;}
+#admin_bottom{position:absolute;height:30px;left:0px;bottom:0;width:100%;border-top: 2px solid #DF0606;overflow:hidden; color:#eee;}
 #admin_bottom a{color:#eee;}
 
 html { *padding:64px 0 32px 0;}

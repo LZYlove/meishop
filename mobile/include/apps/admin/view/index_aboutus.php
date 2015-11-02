@@ -18,13 +18,13 @@
     <h3 class="panel-title">{$lang['special_thanks']}</h3>
   </div>
   <div class="panel-body ectouch-line">TIANXIAKE Team<br>
-    <a href="http://www.wooyun.org" target="_blank">http://www.wooyun.org</a> </div>
+    <a href="http://www.tianxiake.com" target="_blank">http://www.tianxiake.com</a> </div>
 </div>
 <div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">{$lang['official_site']}</h3>
   </div>
-  <div class="panel-body ectouch-line"> {$lang['site_url']}：<a href="http://www.ectouch.cn" target="_blank">http://www.ectouch.cn</a><br>
+  <div class="panel-body ectouch-line"> {$lang['site_url']}：<a href="http://www.tianxiake.com" target="_blank">http://www.tianxiake.com</a><br>
     {$lang['support_forum']}：<a href="http://www.tianxiake.com/forum.php?gid=84" target="_blank">http://www.tianxiake.com</a> </div>
 </div>
 {include file="pagefooter"} 

@@ -32,13 +32,13 @@ if (isset($set_modules) && $set_modules == TRUE) {
 
     $modules[$i]['className'] = 'qq';
     // 作者信息
-    $modules[$i]['author'] = 'Zhulin';
+    $modules[$i]['author'] = 'Lorend';
 
     // 作者QQ
     $modules[$i]['qq'] = '2880175566';
 
     // 作者邮箱
-    $modules[$i]['email'] = 'zhulin@ecmoban.com';
+    $modules[$i]['email'] = 'Lorend@yeah.net';
 
     // 申请网址
     $modules[$i]['website'] = 'http://open.qq.com';

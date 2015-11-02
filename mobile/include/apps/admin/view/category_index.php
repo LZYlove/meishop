@@ -19,6 +19,7 @@
     <td>{$cat['grade']}</td>
     <td>{$cat['sort_order']}</td>
     <td><a href="{url('edit', array('cat_id'=>$cat['cat_id']))}">{$lang['edit']}</a></td>
+    <td><a href="javascript:;" onclick="listTable.drop({$goods_type.cat_id}, '{$lang.drop}')" title="{$lang.drop}">{$lang['drop']}</a></td>
   </tr>
   {/loop}
 </table>

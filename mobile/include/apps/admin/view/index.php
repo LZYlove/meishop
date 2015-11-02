@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="admin_header">
-  <div id="admin_logo"><img src="__ASSETS__/images/topLogo.jpg" /></div>
+  <div id="admin_logo"><img src="__ASSETS__/images/topLogo.png" /></div>
   <div id="submenu-div">
     <ul>
       <li><a href="{url('logout')}">{$lang['signout']}</a></li>
@@ -47,7 +47,7 @@
     <dt class="menu_title">模板插件</dt>
     <dd>
       <ul>
-        <li><a href="{url('template/index')}" target="mainFrame">模板设置</a></li>
+        <!-- <li><a href="{url('template/index')}" target="mainFrame">模板设置</a></li> -->
         <li><a href="{url('payment/index')}" target="mainFrame">支付方式</a></li>
         <li><a href="{url('authorization/index')}" target="mainFrame">快捷登录</a></li>
       </ul>
@@ -70,7 +70,7 @@
     <dd>
       <ul>
         <li><a href="{url('navigator/index')}" target="mainFrame">菜单管理</a></li>
-        <li><a href="{url('upgrade/index')}" target="mainFrame">在线升级</a></li>
+        <li><a href="{url('upgrade/index')}" target="mainFrame">当前版本</a></li>
       </ul>
     </dd>
   </dl>

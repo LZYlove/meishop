@@ -1,13 +1,13 @@
 {include file="pageheader"}
 
-<div class="row" style="margin:0">
+<!-- <div class="row" style="margin:0">
   <div class="ectouch-mb5">
-  	<a href="{url('index')}" class="btn btn-info">{$lang['upgrade']}</a>
+    <a href="{url('index')}" class="btn btn-info">{$lang['upgrade']}</a>
     <a href="{url('checkfile')}" class="btn btn-success">{$lang['checkfile']}</a>
   </div>
-</div>
+</div> -->
 
-<p class="bg-success" style="padding: 10px;line-height: 24px;">{$lang['check_file_notice']}</p>
+<!-- <p class="bg-success" style="padding: 10px;line-height: 24px;">{$lang['check_file_notice']}</p> -->
 
 <table class="table table-hover ectouch-table" style="border:1px #ddd solid; margin-bottom:10px;">
   <tr class="active">
