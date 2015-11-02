@@ -1,0 +1,3 @@
+<a href="{:url('category/top_all')}" class="pull-left ect-icon ect-icon1 ect-icon-cate1"></a>
+
+<img class="ect-logo" src="data\assets\admin\images\logo1.png"
