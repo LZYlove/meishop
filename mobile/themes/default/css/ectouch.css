@@ -170,7 +170,7 @@ del {
 /*颜色版本*/
 
 .ect-bg {
-    background: #B7B7B7 !important;
+    /*background: #B7B7B7 !important;*/
     color: #fff !important;
     height: auto;
     overflow: hidden;
@@ -257,13 +257,13 @@ h6 {
 }
 
 .ect-margin-lr {
-    margin-left: 0.6em;
-    margin-right: 0.6em;
+    /* margin-left: 0.6em;
+    margin-right: 0.6em; */
 }
 
 .ect-margin-tb {
-    margin-top: 0.6em;
-    margin-bottom: 0.6em;
+    /* margin-top: 0.6em;*/
+    margin-bottom: 0.6em; 
 }
 
 .ect-padding-lr {
@@ -294,6 +294,9 @@ h6 {
     color: silver;
 }
 
+#sublogo {
+    font-size: 1em;
+}
 .ect-logo {
     height: 2.5em;
     width: auto;
@@ -306,6 +309,12 @@ h6 {
     display: box;
 }
 
+.other-login {
+        position: relative;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+}
 .ect-box-flex {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -325,7 +334,40 @@ h6 {
     height: auto;
 }
 
-
+header {
+    /*background: #333;*/
+    margin: 0;
+}
+header #page_top{
+    display: block;
+    margin: 0 80px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    }
+#search_action {
+        width: 35px;
+    height: 35px;
+    top: 10px;
+    right: 0px;
+    float: right;
+    z-index: 12;
+    display: block;
+}
+#user_action {
+    float: left;
+        width: 35px;
+    height: 35px;
+    top: 10px;
+    right: 0px;
+    
+    z-index: 12;
+    display: block;
+}
 /*按钮颜色*/
 
 .ect-btn-info {
@@ -336,14 +378,15 @@ h6 {
 /*顶部高度*/
 
 .ect-header {
-    height: 2.5em;
+    height: 3.2em;
     position: relative;
+    background: #ccc;
 }
 
 .ect-header span {
     font-size: 1.4em;
-    position: absolute;
-    left: 2.4em;
+    /*position: absolute;*/
+    /*left: 2.4em;*/
     right: 3em;
     top: 0.24em
 }
@@ -351,6 +394,13 @@ h6 {
 .ect-header a {
     width: 2.5em;
     height: 2.5em;
+}
+
+.header-user, .header-search {
+        display: block;
+    width: 1.9em;
+    height: 1.9em;
+    margin: 0.1em auto;
 }
 
 
@@ -366,6 +416,9 @@ h6 {
 .ect-icon1 {
     background-size: 18em;
 }
+.ect-icon2 {
+    background-size: 13em;
+}
 
 .ect-icon-cate3 {
     background-position: -0.1em 0em;
@@ -380,7 +433,7 @@ h6 {
 }
 
 .ect-icon-search1 {
-    background-position: -12.85em 0em;
+    background-position: -12.85em -2.8em;
 }
 
 .ect-icon-cate {
@@ -394,6 +447,9 @@ h6 {
 
 .ect-icon-user {
     background-position: -12.98em -0.15em;
+}
+.ect-icon-user1 {
+    background-position: -12.98em -2.3em;
 }
 
 .ect-icon-history {
@@ -500,6 +556,11 @@ i.pm {
     background: #ea4b35;
 }
 
+.new_lo {
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    padding: 0px 10px;
+}
 .ect-pro-price {
     color: #fff;
 }
@@ -618,7 +679,9 @@ nav.ect-nav ul li i {
     height: 1.9em;
     margin: 0.1em auto;
 }
-
+.icon-write {
+    background: #B7B7B7 !important; 
+}
 header nav.ect-nav {
     top: 0;
     border-top: none;
@@ -637,6 +700,8 @@ nav.ect-nav-list {
     border-top: none;
     border-bottom: 1px solid #e8e8e8;
     position: inherit;
+    -webkit-transition: .2s -webkit-transform ease-in-out .2s;
+    /* -webkit-transition: .2s -webkit-transform cubic-bezier(0, 0, 0.25, 1) .2s; */
 }
 
 

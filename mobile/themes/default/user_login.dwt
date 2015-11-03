@@ -2,7 +2,7 @@
  <form name="formLogin" action="{:url('user/login')}" method="post" class="validforms">
  <div class="flow-consignee ect-bg-colorf">
      <section>
-      <ul>
+      <ul class="new_lo">
    		<li>
     		<div class="input-text"><b>{$lang.username}：</b><span><input placeholder="{$lang.username}/{$lang.mobile}/{$lang.email}" name="username" type="text"  class="inputBg" id="username" datatype="*" ></span></div>
         </li>
@@ -36,7 +36,7 @@
 	<a href="{:url('user/get_password_phone')}">{$lang.forgot_password}</a>  
 	<a href="{:url('user/register')}">{$lang.free_registered}</a>
   </p>
-  <div class="ect-padding-lr ect-margin-tb user-hezuo">
+  <div class="ect-padding-lr ect-margin-tb user-hezuo other-login">
   	{$lang.third_login}
   	<p>
     	<a href="{:url('user/third_login',array('type'=>'qq'))}"><img src="__TPL__/images/qq.png"></a>

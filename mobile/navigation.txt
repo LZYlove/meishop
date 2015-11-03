@@ -1,3 +1,14 @@
 <a href="{:url('category/top_all')}" class="pull-left ect-icon ect-icon1 ect-icon-cate1"></a>
 
 <img class="ect-logo" src="data\assets\admin\images\logo1.png"
+
+
+ <header class="ect-header ect-padding-tb ect-margin-lr text-center"> 
+  <a href="javascript:openSearch();" class="pull-left ect-icon ect-icon1 ect-icon-search1"></a>
+  
+  <span id="sublogo"><img src="data\assets\admin\images\logo.png" class="ect-logo pull-center ect-icon2 ect-icon-cate1">
+    </span>
+
+    <a href="/meishop/mobile/index.php?m=default&c=user&a=index" class="pull-right ect-icon  ect-icon-user1"></a>
+ 
+  </header>
