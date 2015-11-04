@@ -300,6 +300,8 @@ h6 {
 .ect-logo {
     height: 2.5em;
     width: auto;
+        top: -3px;
+    position: relative;
 }
 
 .ect-diaplay-box {
@@ -380,7 +382,7 @@ header #page_top{
 .ect-header {
     height: 3.2em;
     position: relative;
-    background: #ccc;
+    background: #fff;
 }
 
 .ect-header span {
@@ -433,7 +435,7 @@ header #page_top{
 }
 
 .ect-icon-search1 {
-    background-position: -12.85em -2.8em;
+    background-position: -12.85em -0.2em;
 }
 
 .ect-icon-cate {
@@ -449,7 +451,7 @@ header #page_top{
     background-position: -12.98em -0.15em;
 }
 .ect-icon-user1 {
-    background-position: -12.98em -2.3em;
+    background-position: -12.98em 0em;
 }
 
 .ect-icon-history {

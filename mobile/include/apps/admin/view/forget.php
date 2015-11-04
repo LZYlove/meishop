@@ -32,13 +32,14 @@ a.fcolor {
 	text-align: left;
 }
 .loginbg {
-	width: 521px;
-	height: 327px;
-	background: url(__ASSETS__/images/loginbg.png);
-	color: #D6D6D6;
-	font-size: #D6D6D6;
-	margin: auto;
-	margin-top: 212px;
+	    width: 521px;
+    height: 327px;
+    background: rgba(236, 236, 236, 0.38);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: #D6D6D6;
+    margin: auto;
+    margin-top: 212px;
 }
 .loginlogo {
 	border: none;
@@ -65,14 +66,14 @@ a.fcolor {
 	text-transform: uppercase;
 }
 .loginsignin {
-	background: url(__ASSETS__/images/btn.jpg);
-	width: 118px;
-	height: 28px;
-	padding: 0;
-	color: #FFF;
-	line-height: 28px;
-	border: none;
-	cursor: pointer;
+	    cursor: pointer;
+    background: #DF0606;
+    width: 118px;
+    height: 28px;
+    padding: 0;
+    color: #FFF;
+    line-height: 28px;
+    border: none;
 }
 </style>
 </head>
