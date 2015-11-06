@@ -154,8 +154,12 @@ div {
 
 del {
     color: #bbb;
+    left: 0;
+    position: relative;
 }
-
+.single_item {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
 .h4-list {
     font-size: 1.4em;
     padding: 0.6em;
@@ -408,14 +412,16 @@ header #page_top{
 .ect-header {
     height: 3.2em;
     position: relative;
-    background: #fff;
+    background: url(/meishop/mobile/data/assets/admin/images/headerbar.jpg);
+    background-size: cover;
+
 }
 
 .ect-header span {
     font-size: 1.4em;
     /*position: absolute;*/
     /*left: 2.4em;*/
-    right: 3em;
+    right: 3em;color: black;
     top: 0.24em
 }
 
@@ -461,7 +467,7 @@ header #page_top{
 }
 
 .ect-icon-search1 {
-    background-position: -12.85em -0.2em;
+    background-position: -12.85em -2.8em;
 }
 
 .ect-icon-cate {
@@ -509,7 +515,7 @@ header #page_top{
 }
 
 .icon-write .ect-icon-history {
-    background-position: -5.4em -2.7em;
+    background-position: -5.4em -2.9em;
 }
 
 .icon-write .ect-icon-search1 {
@@ -517,7 +523,7 @@ header #page_top{
 }
 
 .icon-write .ect-icon-mune {
-    background-position: -10.36em -2.6em;
+    background-position: -10.36em -2.9em;
 }
 
 
@@ -591,6 +597,8 @@ i.pm {
 }
 .ect-pro-price {
     color: #fff;
+        left: 10px;
+    position: relative;
 }
 
 .ect-pro-price i {
@@ -693,7 +701,7 @@ footer nav.ect-nav {
     bottom: 0;
 }
 
-nav.ect-nav li:first-child a, nav.ect-nav a:hover  {
+nav.ect-nav li:nth-child(1) a, nav.ect-nav a:hover  {
     color: #DF0606;
 }
 
@@ -1125,15 +1133,20 @@ button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     /* 取消链接高亮 */
 }
+.fa-heart-o:before {
+    color: #ddd;
+}
 
 .nav-tabs>li.active>a {
-        background-color: lightgray;
+        background-color: white;
 }
 .search-header {
     background: #ccc;
 }
 /*快速导航*/
-
+.nav-tabs {
+    border-bottom:none;
+}
 .ect-row-nav {
     border-bottom: 1px #e8e8e8 solid;
     background: #FFF;
@@ -1381,7 +1394,7 @@ button {
     font-size: 12px;
     height: 100%;
     position: absolute;
-    right: 30px;
+    right: 40px;
     top: 0;
     z-index: 3;
 }
@@ -1424,7 +1437,7 @@ button {
     display: block;
     font-size: 14px;
     height: 35px;
-    line-height: 3rem;
+    line-height: 2rem;
     text-align: center;
     width: 100%;
     float: left;
@@ -1440,7 +1453,7 @@ button {
     display: block;
     font-size: 14px;
     height: 35px;
-    line-height: 3rem;
+    line-height: 2rem;
     text-align: center;
     width: 100%;
 }
@@ -1530,7 +1543,7 @@ button {
     display: table-cell;
     height: 3em;
     line-height: 3em;
-    border-right: 1px #e8e8e8 solid;
+    border-right: 1px #e8e8e8 dashed;
 }
 
 .ect-wrapper div a:last-child {
@@ -2173,7 +2186,14 @@ a.flow-del {
 .flow-checkout .ect-radio i {
     margin-top: 0.7em;
 }
-
+.ecs-foote {
+        margin: 10px 20px;
+    color: #ccc;
+}
+/*#ecs-home {
+        border-radius: 80px;
+    background-color: antiquewhite;
+}*/
 .checkout-add {
     position: relative;
     padding: 0.8em 0.6em
@@ -2370,7 +2390,7 @@ a.flow-del {
 .flow-consignee {
     border-bottom: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
-    margin-top: 0.6em;
+    /*margin-top: 0.6em;*/
 }
 
 .flow-consignee ul li {
