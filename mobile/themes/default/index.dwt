@@ -1,6 +1,6 @@
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
 <div class="con"> 
-  <header class="ect-header ect-padding-tb ect-margin-tb ect-padding-lr text-center"> 
+  <header class="ect-header ect-padding-tb ect-padding-lr text-center"> 
 <a href="/meishop/mobile/index.php?m=default&c=user&a=index" class="pull-left ect-icon  ect-icon-user1"></a>
 
   <span id="sublogo"><img src="data\assets\admin\images\logo.png" class="ect-logo pull-center ect-icon2 ect-icon-cate1">
@@ -10,7 +10,7 @@
  
   </header>
   <!--banner滚动图片s-->
-  <div id="focus" class="focus ect-margin-tb">
+  <div id="focus" class="focus">
     <div class="hd">
       <ul>
       </ul>

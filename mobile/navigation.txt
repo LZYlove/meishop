@@ -12,3 +12,6 @@
     <a href="/meishop/mobile/index.php?m=default&c=user&a=index" class="pull-right ect-icon  ect-icon-user1"></a>
  
   </header>
+
+
+<dd class="dd-num"><span class="pull-left"><i class="fa fa-eye"></i> {$groupbuy.click_num}{$lang.scan_num}</span><span class="pull-right">{$lang.sort_sales}£º{$groupbuy.sales_count}{$lang.piece}</span> </dd>

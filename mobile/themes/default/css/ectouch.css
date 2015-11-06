@@ -166,7 +166,20 @@ del {
     height: auto;
 }
 
-
+.pull-left {
+    margin-left: 6px;
+}
+.pull-right {
+    margin-right: 6px;
+}
+.ect-colorf {
+        border-radius: 5px;
+    background-color: #E00000;
+    /*margin: 2em;*/    
+}
+.fa-envelope-o:before {
+        color: wheat;
+}
 /*颜色版本*/
 
 .ect-bg {
@@ -184,7 +197,8 @@ del {
 /*蓝色*/
 
 .ect-colory {
-    color: #e87e04 !important;
+    font-size: 20px;
+    color: #DF0606 !important;
 }
 
 
@@ -262,8 +276,8 @@ h6 {
 }
 
 .ect-margin-tb {
-    /* margin-top: 0.6em;*/
-    margin-bottom: 0.6em; 
+     margin-top: 1em;
+    /*margin-bottom: 0.6em; */
 }
 
 .ect-padding-lr {
@@ -315,6 +329,8 @@ h6 {
         position: relative;
     height: 41px;
     line-height: 41px;
+        border-top: 1px #ccc dashed;
+    margin-top: 20px;
     text-align: center;
 }
 .ect-box-flex {
@@ -322,18 +338,28 @@ h6 {
     -moz-box-flex: 1;
     -ms-box-flex: 1;
     box-flex: 1;
+    text-align: center;
     display: block;
     width: 100%;
 }
 
 .ect-margin-bottom0 {
     margin-bottom: 0 !important;
+    margin-top: 10px;
 }
 
 .ect-clear-over {
     clear: both;
     overflow: hidden;
     height: auto;
+}
+
+.ect-title {
+        text-indent: 10px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 10px;
 }
 
 header {
@@ -427,7 +453,7 @@ header #page_top{
 }
 
 .ect-icon-home {
-    background-position: -6.45em -0.2em;
+    background-position: -6.45em -4.4em;
 }
 
 .ect-icon-search {
@@ -590,7 +616,7 @@ i.pm {
 /*商品列表*/
 
 h4.title {
-    font-size: 1.2em;
+    font-size: 14px;
     line-height: 1.3em;
     display: block;
     height: 2.4em;
@@ -613,7 +639,7 @@ h4.title {
     height: auto;
     overflow: hidden;
     padding: 0.6em;
-    border-bottom: 1px #e8e8e8 dotted;
+    border-bottom: 1px #e8e8e8 dashed;
 }
 
 .ect-pro-list ul li:last-child {
@@ -628,6 +654,7 @@ h4.title {
 .ect-pro-list ul li img {
     width: 7em;
     height: 7em;
+        /* border: 1px solid #E8E8E8; */
 }
 
 .ect-pro-list ul li dl {
@@ -666,9 +693,14 @@ footer nav.ect-nav {
     bottom: 0;
 }
 
+nav.ect-nav li:first-child a, nav.ect-nav a:hover  {
+    color: #DF0606;
+}
+
 nav.ect-nav a {
     color: #999;
 }
+
 
 nav.ect-nav ul li {
     padding: 0.3em 0;
@@ -695,6 +727,9 @@ header nav.ect-nav a {
     color: #fff;
 }
 
+.glyphicon-search:before {
+        color: #CCCCCC;
+}
 
 /*内页导航*/
 
@@ -1065,7 +1100,7 @@ button {
 }
 
 .focus .hd ul .on {
-    background: #B7B7B7;
+    background: #DF0707;
 }
 
 .focus .bd {
@@ -1091,7 +1126,12 @@ button {
     /* 取消链接高亮 */
 }
 
-
+.nav-tabs>li.active>a {
+        background-color: lightgray;
+}
+.search-header {
+    background: #ccc;
+}
 /*快速导航*/
 
 .ect-row-nav {
@@ -1101,7 +1141,7 @@ button {
 }
 
 .ect-row-nav li {
-    border: 1px #e8e8e8 solid;
+    border: 1px #e8e8e8 dashed;
     padding: 0.8em 0;
     border-left: none;
     border-bottom: none;
@@ -1159,9 +1199,12 @@ button {
 }
 
 .ect-category-all .ect-category-right h3 {
-    font-size: 1.4em;
+    font-size: 1.4em;    color: #000;
 }
 
+.fa-angle-down:before {
+        color: #E8E8E8;
+}
 .ect-category-all .ect-category-right h5 {
     margin-top: 0.2em;
     font-size: 1em;
@@ -1169,7 +1212,7 @@ button {
 }
 
 .ect-category-all ul li {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #ddd;
 }
 
 .ect-category-all ul li .panel-body {
@@ -1190,15 +1233,17 @@ button {
 }
 
 .ect-category-all ul li .ect-category-child {
-    background: #f5f5f5;
-    padding: 0 0.8em;
+    background: #efefef;
+    padding: 0;
     display: none;
 }
 
 .ect-category-all ul li .ect-category-child a {
     display: block;
     padding: 1em 0;
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid #fff;
+        color: #808080;
+            text-indent: 30px;
 }
 
 .ect-category-all ul li .ect-category-child a:last-child {

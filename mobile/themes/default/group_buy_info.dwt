@@ -7,7 +7,7 @@
   </div>
   
   <!--商品图片相册-->
-  <div id="focus" class="focus goods-focus ect-padding-lr ect-margin-tb">
+  <div id="focus" class="focus goods-focus ">
     <div class="hd">
       <ul>
       </ul>
@@ -26,36 +26,36 @@
     <section class="ect-margin-tb ect-margin-lr ">
       <p><span class="pull-left">{$lang.gb_cur_price}<strong class="ect-colory">{$group_buy.formated_cur_price}</strong></span><span class="pull-right">{$lang.sort_sales}：{$group_buy.sales_count} 件</span></p>
        <!-- {if $cfg.show_goodssn && 0} -->
-        <p> {$lang.goods_sn}<strong>{$gb_goods.goods_sn}</strong></p>
+        <p><span class="pull-left"> {$lang.goods_sn}<strong>{$gb_goods.goods_sn}</strong></span></p>
        <!-- {/if} --> 
         <!-- {if $cfg.goods.brand_name && $show_brand && 0} -->
-        <p> {$lang.goods_brand}<strong>{$gb_goods.brand_name}</strong></p>
+        <p><span class="pull-left"> {$lang.goods_brand}<strong>{$gb_goods.brand_name}</strong></span></p>
         <!-- {/if} -->
         <!-- {if $cfg.show_goodsweight && 0} -->
-        <p> {$lang.goods_weight}<strong>{$gb_goods.goods_weight}</strong></p>
+        <p><span class="pull-left"> {$lang.goods_weight}<strong>{$gb_goods.goods_weight}</strong></span></p>
        <!-- {/if} --> 
         <!-- {if $group_buy.deposit > 0} 保证金额-->
-        <p> {$lang.gb_deposit}<strong>{$group_buy.formated_deposit}</strong></p>
+        <p><span class="pull-left"> {$lang.gb_deposit}<strong>{$group_buy.formated_deposit}</strong></span></p>
        <!--{/if}--> 
        <!--{if $group_buy.restrict_amount > 0} 限购数量-->
-        <p> {$lang.gb_restrict_amount}<strong>{$group_buy.restrict_amount}</strong></p>
+        <p><span class="pull-left"> {$lang.gb_restrict_amount}<strong>{$group_buy.restrict_amount}</strong></span></p>
    <!--{/if}--> 
    <!--{if $group_buy.gift_integral > 0} 送积分-->
-        <p> {$lang.gb_gift_integral}<strong>{$group_buy.gift_integral}</strong></p>
+        <p><span class="pull-left"> {$lang.gb_gift_integral}<strong>{$group_buy.gift_integral}</strong></span></p>
        <!--{/if}--> 
        <!-- {if $group_buy.status eq 0} 未开始 -->
-        <p> {$lang.gbs_pre_start}</p>
+        <p> <span class="pull-left">{$lang.gbs_pre_start}</p>
        <!-- {elseif $group_buy.status eq 1} 进行中 -->
-        <p> <strong id="leftTime" class="price">{$lang.please_waiting}</strong></p>
-        <p> {$lang.gb_valid_goods}<strong>{$group_buy.valid_goods}</strong></p>
+        <p><span class="pull-left"> <strong id="leftTime" class="price">{$lang.please_waiting}</strong></span></p>
+        <p> <span class="pull-left">{$lang.gb_valid_goods}<strong>{$group_buy.valid_goods}</strong></span></p>
         <!-- {elseif $group_buy.status eq 2} 已结束 -->
-        <p> {$lang.gbs_finished}</p><p>{$lang.gb_cur_price} <strong>{$group_buy.formated_cur_price}</strong></p><p>{$lang.gb_valid_goods} <strong>{$group_buy.valid_goods}</strong></p>
+        <p> <span class="pull-left">{$lang.gbs_finished}</p><p>{$lang.gb_cur_price} <strong>{$group_buy.formated_cur_price}</strong></p><p>{$lang.gb_valid_goods} <strong>{$group_buy.valid_goods}</strong></span></p>
        <!-- {elseif $group_buy.status eq 3} 团购成功 -->
-        <p> {$lang.gbs_succeed}
+        <p><span class="pull-left"> {$lang.gbs_succeed}
             {$lang.gb_final_price} <strong>{$group_buy.formated_trans_price}</strong><br />
-            {$lang.gb_final_amount} <strong>{$group_buy.trans_amount}</strong></p>
+            {$lang.gb_final_amount} <strong>{$group_buy.trans_amount}</strong></span></p>
        <!-- {elseif $group_buy.status eq 4} 团购失败 -->
-        <p> {$lang.gbs_fail}</p>
+        <p><span class="pull-left"> {$lang.gbs_fail}</span></p>
        <!-- {/if} -->
        <div class="good-info-table">
         	<ul>

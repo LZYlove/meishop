@@ -1,7 +1,7 @@
 .user-bottom { border-bottom: 1px solid #e3e3e3; }
 .user-bottom0 { border-bottom: 0 !important; }
 /*user基本信息*/
-.user-info { overflow: hidden; padding: 1em; width: 100%; background: url(../images/default.png); position: relative; box-sizing: border-box; }
+.user-info { overflow: hidden; padding: 1em; width: 100%; background: url(../images/default.png); background-size: cover; position: relative; box-sizing: border-box; }
 .user-info .user-img i { font-size: 4em; padding: 0.1em; background: #f1f1f1; border-radius: 8px; color: #aaa; }
 .user-info dl { margin-left: 0.6em; color: #fff; }
 .user-info dl dt h4 { font-size: 1.5em }

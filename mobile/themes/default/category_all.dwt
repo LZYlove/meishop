@@ -12,12 +12,7 @@
         <div class="media panel-body"> 
             <div class="pull-left ect-category-right">
                 <h3>{$cat.name|escape:html}</h3>
-                <h5 style="display:none;"> <!--{foreach from=$cat.cat_id item=child name=no1}-->
-            <!--{if $smarty.foreach.no1.index lt 3}-->
-            <!--{if $smarty.foreach.no1.index gt 0}-->/<!--{/if}-->
-            {$child.name|escape:html|truncate:5,false} 
-            <!--{/if}-->
-            <!--{/foreach}--></h5>
+                
             </div>
             <i class="fa fa-angle-down ect-transition05"></i>
         </div>
@@ -25,12 +20,7 @@
         <a href="{:url('category/index',array('id'=>$this->_var['cat']['id']))}"><div class="media panel-body"> 
             <div class="pull-left ect-category-right">
                 <h3>{$cat.name|escape:html}</h3>
-                <h5 style="display:none;"> <!--{foreach from=$cat.cat_id item=child name=no1}-->
-            <!--{if $smarty.foreach.no1.index lt 3}-->
-            <!--{if $smarty.foreach.no1.index gt 0}-->/<!--{/if}-->
-            {$child.name|escape:html|truncate:5,false} 
-            <!--{/if}-->
-            <!--{/foreach}--></h5>
+                
             </div>
             <i class="fa fa-angle-right ect-transition05"></i>
         </div></a>

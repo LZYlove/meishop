@@ -5,7 +5,7 @@
     <nav class="ect-nav ect-nav-list" style="display:none;"> <!-- #BeginLibraryItem "/library/page_menu.lbi" --><!-- #EndLibraryItem --> </nav>
   </div>
   <!--商品图片相册-->
-  <div id="focus" class="focus goods-focus ect-padding-lr ect-margin-tb">
+  <div id="focus" class="focus goods-focus ">
     <div class="hd">
       <ul>
       </ul>
@@ -32,7 +32,7 @@
       {$lang.btn_collect} </span> </section>
     <section class="ect-margin-tb ect-margin-lr ">
       <p><span class="pull-left">{$lang.amount}：<b class="ect-colory" id="ECS_GOODS_AMOUNT"></b></span><span class="pull-right">{$lang.sort_sales}：{$sales_count} {$lang.piece}</span></p>
-      <p><!--{if $goods.is_promote and $goods.gmt_end_time } 促销-->{$lang.promote_price}<!--{else}-->{$lang.shop_price}<!--{/if}--><!--{if $goods.is_promote and $goods.gmt_end_time } 促销--> 
+      <p class="pull-left"><!--{if $goods.is_promote and $goods.gmt_end_time } 促销-->{$lang.promote_price}<!--{else}-->{$lang.shop_price}<!--{/if}--><!--{if $goods.is_promote and $goods.gmt_end_time } 促销--> 
         {$goods.promote_price}  
         <!--{else}--> 
         {$goods.shop_price_formated} 
@@ -183,7 +183,7 @@
     
     <!-- 本例主要代码 End ================================ --> 
   </div>
-  <footer class="logo"><a href="http://www.ectouch.cn" title="ECTouch官网" target="_blank"><img src="__TPL__/images/copyright.png" width="176" height="60"></a></footer>
+  <footer class="logo"><a href="http://www.tianxiake.com" title="天下客官网" target="_blank"><img src="__TPL__/images/copyright.png" width="176" height="60"></a></footer>
 </div>
 <!-- #BeginLibraryItem "/library/search.lbi" --><!-- #EndLibraryItem --> <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem --> 
 <script type="text/javascript" src="__TPL__/js/lefttime.js"></script> 
