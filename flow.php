@@ -2770,4 +2770,16 @@ function cart_favourable_amount($favourable)
     /* 优惠范围内的商品总额 */
     return $GLOBALS['db']->getOne($sql);
 }
+
+require(ROOT_PATH . 'includes/lib_payment.php');
+
+if ($_REQUEST['step'] == 'changeorder')
+{
+	$order_sn = $_POST['order_sn'];
+	$logid = get_order_id_by_sn($order_sn);
+	echo $logid;
+	order_paid($logid);
+
+
+}
 ?>

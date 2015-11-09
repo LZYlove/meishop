@@ -675,6 +675,66 @@
             <tr>
               <td align="center" bgcolor="#FFFFFF">{$pay_online}</td>
             </tr>
+			 <tr>
+              <td align="center" bgcolor="#FFFFFF" class="success_tip"></td>
+            </tr>
+		{insert_scripts files='transport.js'}
+
+      <script type="text/javascript" charset="utf-8">
+	
+		$(document).ready(function(){
+			    window.__Object_toJSONString = Object.prototype.toJSONString;
+				 delete Object.prototype.toJSONString;
+				 wxpay_query();
+			})
+        function wxpay_query()
+        {
+		 var order_sn = {$order.order_sn};
+          Ajax.call('./wxpay/query.php', 'order_sn=' + order_sn,wxcallback, 'POST', 'txt');
+		 /* $.ajax({
+			  type: 'POST',
+			  url: './wxpay/query.php',
+			  data: {order_sn:''+order_sn},
+			  success: function(data){
+			  alert(data);
+			  
+			  }
+			});*/
+        }
+		function wxcallback(result){
+
+		
+			if(result == '"SUCCESS"')
+
+			{
+				var order_sn = {$order.order_sn};
+				var html = '支付成功';
+				$('.success_tip').html(html);
+				Ajax.call('./flow.php/?step=changeorder', 'order_sn=' + order_sn,null, 'POST', 'txt');
+				setTimeout('jump()',3000);
+					
+			
+			}
+			else{
+
+			setTimeout('wxpay_query()',5000);
+
+
+			}
+			
+		
+		
+		}
+
+
+function jump(){
+
+location.href = 'user.php?act=order_list';
+}
+	
+
+			
+		</script>
             <!-- {/if} -->
           </table>
           <!--{if $virtual_card}-->
