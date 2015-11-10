@@ -349,7 +349,7 @@ h6 {
 
 .ect-margin-bottom0 {
     margin-bottom: 0 !important;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 .ect-clear-over {
@@ -421,7 +421,7 @@ header #page_top{
     font-size: 1.4em;
     /*position: absolute;*/
     /*left: 2.4em;*/
-    right: 3em;color: black;
+    right: 3em;color: #5A4001;
     top: 0.24em
 }
 
@@ -782,7 +782,7 @@ footer.logo img {
     background: #fff;
     width: 100%;
     max-width: 640px;
-    border-top: 1px solid #e8e8e8;
+    border: 1px solid #e8e8e8;
     height: 3.15em;
 }
 
