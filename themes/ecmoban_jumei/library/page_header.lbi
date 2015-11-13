@@ -101,7 +101,7 @@ catch (e) {
             <div class="ser_n">
                 <form id="searchForm" class="searchBox clearfix" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()">
                     <span class="ipt1"><input name="keywords" type="text" id="keyword" value="{$search_keywords|escape}" class="searchKey" /></span>
-                    <span class="ipt2"><input type="submit"  name="imageField" class="fm_hd_btm_shbx_bttn" value="搜美妆"></span>
+                    <span class="ipt2"><input type="submit"  name="imageField" class="fm_hd_btm_shbx_bttn" value="搜天下"></span>
                 </form>
                 <div class="clear_f"></div>
                 <ul class="searchType none_f"></ul>

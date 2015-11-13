@@ -136,13 +136,12 @@
             <!-- {/foreach} --><br />
         </div>
         
-        <div class="record"> {$copyright} <!-- ICP 证书{if $icp_number} -->{$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a><!-- 结束ICP 证书{/if} -->常年法律顾问：上海华宏律师事务所
-        <p style="color:#999;">上海市普陀区中山北路2911号中关村科技大厦2402        Tel: 4000 021 758 </p>
+        <div class="record"> {$copyright} <!-- ICP 证书{if $icp_number} -->{$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a><!-- 结束ICP 证书{/if} -->
+        <p style="color:#999;">梅州市开源资讯有限公司        Tel: 4000 040 758 </p>
         </div>
       
   </div>
-  <div class="blank"></div>
-  <div align="center"><a href=" http://www.ecmoban.com" target="_blank"><img src="../images/ecmoban.gif" alt="ECShop模板" /></a></div>
+  
   
 	<!--友情链接 start-->
 	<!--{if $img_links  or $txt_links }-->

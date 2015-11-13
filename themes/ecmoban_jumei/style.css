@@ -401,12 +401,12 @@ width: 10px;
 
    /*商品分类*/
 .Main{ position:relative; z-index:1;}
-#category_tree{ position:absolute; left:0; top:-481px;}
+#category_tree{ position:absolute; left:0; top:-519px;}
 .AreaL #category_tree{ position:static;}
 #category_tree .tit{ background:#DF0606; height: 40px; line-height: 40px; font-weight: normal; color: #fff; text-align: center; font-size: 16px;}
 #category_tree dl{float:left; width:240px; position:relative; padding-bottom:5px;}
-#category_tree .dt{font-size:12px; border-bottom:1px dashed #ccc; background:#fff;}
-#category_tree .dt .a{ color:#000; font-family:"微软雅黑"; font-size:14px; font-weight:bold;  text-decoration:none; display:block; height:45px; line-height:48px; position:relative; text-indent:20px;}
+#category_tree .dt{font-size:12px; border-bottom:1px dashed #ccc; background:rgba(0,0,0,0.2);}
+#category_tree .dt .a{ color:#FFF; font-family:"微软雅黑"; font-size:14px; font-weight:bold;  text-decoration:none; display:block; height:45px; line-height:48px; position:relative; text-indent:20px;}
 #category_tree .dt .a i{ width:4px; height:7px; overflow:hidden; background:url(images/biao8.gif) no-repeat; position:absolute; right:20px; top:20px;  }
 #category_tree .dt .t{ }
 #category_tree .dt .a:hover,#category_tree .current .a{ background:#DF0606; color:#fff;}
