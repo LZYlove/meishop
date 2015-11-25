@@ -25,9 +25,10 @@
 <div class="ect-margin-tb ect-pro-list ect-margin-bottom0 ect-border-bottom0">
   <ul id="J_ItemList">
     <!--{foreach name=goods_list from=$goods_list item=act_goods}-->
-    <li class="single_item"> <a href="{$act_goods.url}"><img src="{$act_goods.goods_thumb}" alt="{$act_goods.name}"></a>
+    <a href="{$act_goods.url}">
+    <li class="single_item"> <img src="{$act_goods.goods_thumb}" alt="{$act_goods.name}">
       <dl>
-        <h4 class="title"><a href="{$act_goods.url}">{$act_goods.name}</a></h4>
+        <h4 class="title">{$act_goods.name}</h4>
         </dt>
         <dd><span class="pull-left"><strong>{$lang.price}：<b class="ect-colory"><!--{if $act_goods.promote_price}-->{$act_goods.promote_price}<!--{else}-->{$act_goods.shop_price}<!--{/if}--></b></strong><small class="ect-margin-lr"><del>{$act_goods.market_price}</del></small></span> <span class="ect-pro-price"> 
           <!--{if $act_goods.promotion} --> 
@@ -42,7 +43,7 @@
           </span> </dd>
         <dd><span class="pull-left {if $goods.mysc!= 0}ect-colory{/if}"><i class="fa {if $goods.mysc!= 0}fa-heart{else}fa-heart-o{/if}"></i> {$act_goods.sc}{$lang.like_num}</span><span class="pull-right">{$lang.sort_sales}：{$act_goods.sales_count} {$lang.piece}</span> </dd>
       </dl>
-    </li>
+    </li></a>
     <!--{/foreach}-->
   </ul>
 </div>

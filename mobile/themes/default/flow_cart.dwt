@@ -10,18 +10,19 @@
   <section class="ect-pro-list flow-pic ect-border-bottom0">
     <ul>
       <!-- {foreach from=$goods_list item=goods key=k} -->
+      <a href="{:url('goods/index',array('id'=>$this->_var['goods']['goods_id']))}">
       <li>
-        <div class="ect-clear-over"> <a href="{:url('goods/index',array('id'=>$this->_var['goods']['goods_id']))}"><img src="{$goods.goods_thumb}" title="{$goods.goods_name|escape:html}"></a>
+        <div class="ect-clear-over"> <img src="{$goods.goods_thumb}" title="{$goods.goods_name|escape:html}">
           <dl>
             <dt>
-              <h4 class="title"><a href="{:url('goods/index',array('id'=>$this->_var['goods']['goods_id']))}">{$goods.goods_name} 
+              <h4 class="title">{$goods.goods_name} 
                 <!-- {if $goods.parent_id gt 0} 配件 --> 
                 <span style="color:#FF0000">（{$lang.accessories}）</span> 
                 <!-- {/if} --> 
                 <!-- {if $goods.is_gift gt 0} 赠品 --> 
                 <span style="color:#FF0000">（{$lang.largess}）</span> 
                 <!-- {/if} --> 
-                </a></h4>
+                </h4>
             </dt>
             <dd class="ect-color999"> 
               <!-- {if $show_goods_attribute eq 1} 显示商品属性 -->
@@ -43,7 +44,7 @@
           <!-- {/if} --> 
            <div class="pull-right flow-del text-center"> <a href="javascript:if (confirm('{$lang.drop_goods_confirm}')) location.href='{:url('flow/drop_goods',array('id'=>$this->_var['goods']['rec_id']))}';" style="padding: 2px 5px;">{$lang.drop}</a> </div>
         </div>
-      </li>
+      </li></a>
       <!-- {/foreach} -->
     </ul>
     <!-- {if $favourable_list} -->
@@ -65,11 +66,12 @@
     <h4 class="ect-margin-lr ect-margin-tb"><strong>{$lang.releate_goods}：</strong></h4>
     <ul>
       <!--{foreach from=$linked_goods item=releated_goods_data}-->
+      <a href="{$releated_goods_data.url}">
       <li>
-        <div class="ect-clear-over"> <a href="{$releated_goods_data.url}"><img src="{$releated_goods_data.goods_thumb}" alt="{$releated_goods_data.goods_name}" /></a>
+        <div class="ect-clear-over"> <img src="{$releated_goods_data.goods_thumb}" alt="{$releated_goods_data.goods_name}" />
           <dl>
             <dt>
-              <h4 class="title"><a href="{$releated_goods_data.url}">{$releated_goods_data.short_name}</a></h4>
+              <h4 class="title">{$releated_goods_data.short_name}</h4>
             </dt>
             <dd class="ect-color999">
               <p> 
@@ -82,7 +84,7 @@
             </dd>
           </dl>
         </div>
-      </li>
+      </li></a>
       <!-- {/foreach} -->
     </ul>
   </section>

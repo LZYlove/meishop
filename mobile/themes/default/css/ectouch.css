@@ -662,6 +662,8 @@ h4.title {
 .ect-pro-list ul li img {
     width: 7em;
     height: 7em;
+    position: relative;
+    float: left;
         /* border: 1px solid #E8E8E8; */
 }
 
@@ -689,7 +691,7 @@ h4.title {
 
 nav.ect-nav {
     color: #999;
-    background: #fcfcfc;
+    background: #383838;
     height: 4.2em;
     width: 100%;
     max-width: 640px;

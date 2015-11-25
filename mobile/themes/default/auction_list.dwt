@@ -19,10 +19,11 @@
   <div class="ect-margin-tb ect-pro-list ect-margin-bottom0 ect-border-bottom0">
     <ul id="J_ItemList">
       <!--{foreach name=auction_list from=$auction_list item=auction}-->
-      <li class="single_item"> <a href="{$auction.url}"><img src="{$auction.act_banner}" alt="{$auction.goods_name}"></a>
+      <a href="{$auction.url}">
+      <li class="single_item"> <img src="{$auction.act_banner}" alt="{$auction.goods_name}">
         <dl>
           <dt>
-            <h4 class="title"><a href="{$auction.url}">{$auction.goods_name}</a></h4>
+            <h4 class="title">{$auction.goods_name}</h4>
           </dt>
           <dd class="dd-num"> <span class="pull-left"> {$lang.act_status}： 
             <!-- {if $auction.status_no eq 0} --> 
@@ -39,7 +40,7 @@
             <strong>{$lang.au_end_price}：<b class="ect-colory">{$auction.formated_end_price}</b></strong> 
             <!-- {/if} --></span> </dd>
         </dl>
-      </li>
+      </li></a>
       <!--{/foreach}-->
     </ul>
   </div>
